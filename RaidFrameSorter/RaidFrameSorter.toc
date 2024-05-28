@@ -1,0 +1,18 @@
+## Interface: 30300
+## Author: zooood & Backport: Tsoukie
+## Title: Raid Frame Sorter
+## Version: v1.0.0
+## Notes: Sorts blizzard raid frames as [ 1: player | 2: party1 | 3: party2 |... ]
+## DefaultState: enabled
+## SavedVariables: RaidFrameSorterDB
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+globals.lua
+util.lua
+constants.lua
+Init.lua
+Options.lua
+RaidFrameSorter.lua
